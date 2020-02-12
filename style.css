@@ -1,29 +1,29 @@
 /* Colors and fonts */
 body {
   background: #F7F9FC;
-  color: #575F7D;
-  font-family: 'Lora', serif;
+  color: #000000;
+  font-family: 'Open Sans', serif;
   font-size: 17px;
   font-weight: lighter;
 }
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 h1 {
-  color: #575F7D;
+  color: #C81912;
   font-size: 32px;
   font-weight: 900;
 }
 h2 {
-  color: #7ECE90;
+  color: #F64B3C;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
 }
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   text-decoration: none;
-  color: #6B72E1;
+  color: black;
   font-weight: 600;
   font-size: 16px;
 }
@@ -69,20 +69,17 @@ a:hover {
 }
 
 .list-inline i:hover {
-  color: black;
+  color: #C81912;
 }
 
-
-.btn-blue {
-    background-color: #6B72E1;
+.btn-red {
+    background-color: #C81912;
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
 }
 
-
-
-.btn-blue:hover {
+.btn-red:hover {
   background-color: black;
   color: white;
 }
